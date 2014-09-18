@@ -26,7 +26,7 @@ var Flushots = (function($) {
 					location: Event.data.facility_name+' - '+Event.data.street1+' - '+Event.data.city+' '+Event.data.state+' '+Event.data.postal_code,
 					iconSize: 16,
 					sites: ['icalendar'],
-					echoUrl: '//flushots.smartchicagoapps.org/ical.php'
+					echoUrl: '//flushots.smartnashvilleapps.org/ical.php'
 				});
 			};
 		};
@@ -92,7 +92,7 @@ var Flushots = (function($) {
 							// Mask the exact address before recording
 							// Example: '1456 W Greenleaf Ave' becomes '1400 W Greenleaf Ave'
 							var addarray = $.trim($('#nav-address').val()).split(' ');
-							// Chicago addresses start with numbers. So look for them and mask them.
+							// Nashville addresses start with numbers. So look for them and mask them.
 							if(addarray[0].match(/^[0-9]+$/) !== null)
 							{
 								var replacement = addarray[0].substr(0,addarray[0].length-2)+'00';

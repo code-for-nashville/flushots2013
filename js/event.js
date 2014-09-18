@@ -60,7 +60,7 @@ var Event = (function($){
 					ThisEvent.infoboxtext += '<br><a class="directions" href="http://www.google.com/maps?';
 					if($('#nav-address').val() !== '')
 					{
-						ThisEvent.infoboxtext += 'saddr='+$('#nav-address').val()+' Chicago, IL&';
+						ThisEvent.infoboxtext += 'saddr='+$('#nav-address').val()+' Nashville, IL&';
 					}
 					ThisEvent.infoboxtext += 'daddr='+ThisEvent.data.street1+' '+ThisEvent.data.city+', '+ThisEvent.data.state+' '+ThisEvent.data.postal_code+'" target="_blank" style="color:#22f">Get Directions</a>';
 					ThisEvent.infoboxtext += '</div>';
