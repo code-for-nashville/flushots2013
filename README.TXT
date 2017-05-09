@@ -1,5 +1,9 @@
 DEPRECATED
-This project is no longer being actively maintained by Code for Nashville. https://vaccinefinder.org/ is an excellent, maintained, national alternative maintained with help from the department of Health and Human Services.
+
+This project is no longer being actively maintained by Code for Nashville. https://vaccinefinder.org/ is an excellent, maintained, national alternative run with help from the department of Health and Human Services.
+
+----
+
 
 I have again partnered with the Chicago Department of Public Health (CDPH) to create an updated flu shot finder web application. Currently it has all the CDPH free locations and events. It also includes Walgreens, Dominick's, Jewel/Osco, and CVS locations that offer flu shots.
 
